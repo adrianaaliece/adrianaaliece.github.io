@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
- 
+
 <body>
- <div id="fixedheader"> Adriana Roblee <center> <form>
-</div>
+ <!-- Header -->
+ <div id="fixedheader"> Adriana Roblee </div>
+
+<!--Big Box/tab-->
+<div id="bigtab"></div>
 
 <!--First Tab HI-->
 <div id="header1">
-<input style="width: 150px; padding: 5px; cursor: pointer; box-shadow: 0px 0px 0px; #999; -webkit-box-shadow: 0px 0px 0px #999; -moz-box-shadow: 0px 0px 0px #999; font-weight: bold; background: #add8e6; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value=" Youtube Channel " onclick="window.location.href='https://www.youtube.com/channel/UC95_bYih56ijUKApy1iFHrw'" />
+<input style="width: 150px; padding: 5px; cursor: pointer; box-shadow: 0px 0px 0px; #999; -webkit-box-shadow: 0px 0px 0px #999; -moz-box-shadow: 0px 0px 0px #999; font-weight: bold; background: #add8e6; color: #000; border-radius: 10px; border: 0px solid #999; font-size: 100%;" type="button" value=" Youtube Channel " onclick="window.location.href='https://www.youtube.com/channel/UC95_bYih56ijUKApy1iFHrw'" />
  </form> </center></div>
  
  <!--Second Tab Currently Doing-->
 <div id="header2">
-<input style="width: 150px; padding: 5px; cursor: pointer; box-shadow: 0px 0px 0px; #999; -webkit-box-shadow: 0px 0px 0px #999; -moz-box-shadow: 0px 0px 0px #999; font-weight: bold; background: #add8e6; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value=" Currently Doing " onclick="window.location.href='pages/CurrentlyDoing.html'" />
- </form> </center></div>
+<input style="width: 150px; padding: 5px; cursor: pointer; box-shadow: 0px 0px 0px; #999; -webkit-box-shadow: 0px 0px 0px #999; -moz-box-shadow: 0px 0px 0px #999; font-weight: bold; background: #add8e6; color: #000; border-radius: 10px; border: 0px solid #999; font-size: 100%;" type="button" value=" Currently Doing " onclick="window.location.href='pages/CurrentlyDoing.html'" />
+</center></div>
 
 <center> <h1>NightcoreAR</h1> 
 <p> Here are all of my Nightcore videos </center>
@@ -42,7 +45,16 @@ div#header2 {section {
   margin: 5 5%;
   width: 20%;
  }
-div#footer {
+ div#bigtab {
+    position:left;
+    bottom:100px;
+    left:100px;
+    width:20%;
+    color:red;
+    background:red;
+    padding:8px;
+}
+div#fixedfooter {
     position:bottom;
     bottom:0px;
     left:0px;
@@ -84,21 +96,18 @@ div#footer {
 
 <!--Make button next to each other-->
 
-<br> </br>
-<!--Trying to get a button link to a different page on website-->
- 
- <br>  </br>
+<br> </br> <br>  </br>
  
 <!--HTML Button Link-->
 <left> <form>
 <input style="width: 200px; padding: 20px; cursor: pointer; box-shadow: 0px 0px 0px; #999; -webkit-box-shadow: 0px 0px 0px #999; -moz-box-shadow: 0px 0px 0px #999; font-weight: bold; background: #add8e6; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value=" HI " onclick="window.location.href='pages/HI.html'" />
  </form> </left>
 
-<br> </br>
+<br> </br> <br> </br>
 
 </center>
  
-<div id="footer"> Welcome to the bottom of the page!</div>
+<div id="fixedfooter"> Welcome to the bottom of the page!</div>
 
 </body>
 </html>
